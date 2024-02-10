@@ -68,7 +68,9 @@ const loginBtnDisabled = computed(() => {
 })
 
 const onSubmit = async (e: any) => {
+  console.log('>formState', formState)
   const result = await login(formState)
+  console.log('>result', result)
   if (result.code === 0) {
     localStorage.setItem(ELocalStorageKey.Token, result.data.access_token)
     localStorage.setItem(ELocalStorageKey.WorkspaceId, result.data.workspace_id)

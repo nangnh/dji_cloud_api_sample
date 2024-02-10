@@ -16,6 +16,5 @@ ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 
 RUN mvn clean package -Dmaven.test.skip=true
 
-
-ENTRYPOINT ["sh", "-c", "java -jar /app/target/cloud-api-sample-1.7.0.jar"]
+ENTRYPOINT ["sh", "-c", "java -jar /app/target/cloud-api-sample-1.8.0.jar"]
 

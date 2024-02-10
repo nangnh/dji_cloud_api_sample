@@ -1,13 +1,17 @@
 export const CURRENT_CONFIG = {
-
+  /**
+   * APP ID: 142768
+   * App Key: 95131b121a4d65ac2f27b52b0e32b73
+   * App License: aSXcx7vHev2ox2nK/YCD4SRq1aKOvGSbFcbtrI93lFCkBZJ/2BcbK9S6In8hzXDERU/g5+u3yiJfIFLigurMXCI4CRRAaikxV1AaXyOnBl0HODs0TOAqqjqFQF+TPSuE36aE+3xwHoZvQlpIuhh00Ra4iE9uVTyIWhL0jar4h10=
+   */
   // license
-  appId: 'Please enter the app id.', // You need to go to the development website to apply.
-  appKey: 'Please enter the app key.', // You need to go to the development website to apply.
-  appLicense: 'Please enter the app license.', // You need to go to the development website to apply.
+  appId: '142768', // You need to go to the development website to apply.
+  appKey: '95131b121a4d65ac2f27b52b0e32b73', // You need to go to the development website to apply.
+  appLicense: 'aSXcx7vHev2ox2nK/YCD4SRq1aKOvGSbFcbtrI93lFCkBZJ/2BcbK9S6In8hzXDERU/g5+u3yiJfIFLigurMXCI4CRRAaikxV1AaXyOnBl0HODs0TOAqqjqFQF+TPSuE36aE+3xwHoZvQlpIuhh00Ra4iE9uVTyIWhL0jar4h10=', // You need to go to the development website to apply.
 
   // http
-  baseURL: 'Please enter the backend access address prefix.', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
-  websocketURL: 'Please enter the WebSocket access address.', // Example: 'ws://192.168.1.1:6789/api/v1/ws'
+  baseURL: 'http://192.168.0.110:6789/', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
+  websocketURL: 'ws://192.168.0.110:6789/api/v1/ws', // Example: 'ws://192.168.1.1:6789/api/v1/ws'
 
   // livestreaming
   // RTMP  Note: This IP is the address of the streaming server. If you want to see livestream on web page, you need to convert the RTMP stream to WebRTC stream.

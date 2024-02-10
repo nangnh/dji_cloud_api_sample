@@ -10,11 +10,11 @@
 <script lang="ts">
 import { computed, defineComponent, ref } from 'vue'
 import { useMyStore } from './store'
-import GMap from '/@/components/GMap.vue'
+// import GMap from '/@/components/GMap.vue'
 
 export default defineComponent({
   name: 'App',
-  components: { GMap },
+  // components: { GMap },
 
   setup () {
     const store = useMyStore()

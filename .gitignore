@@ -1,2 +1,6 @@
 .env*
-
+*cloud_api*.tar
+/data/*
+.DS_Store
+source/.DS_Store
+source/backend_service/.DS_Store
