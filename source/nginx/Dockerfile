@@ -4,6 +4,10 @@ WORKDIR /app
 
 ADD front_page/ .
 
+RUN npm cache clean --force
+RUN npm config set registry https://registry.npmjs.org/
+RUN npm config set registry https://registry.npm.taobao.org/
+RUN npm set strict-ssl false
 RUN npm install
 
 RUN npm run build

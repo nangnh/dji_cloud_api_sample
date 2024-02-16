@@ -45,16 +45,16 @@ mqtt:
   # BASIC parameters are required.
   BASIC:
     protocol: MQTT # @see com.dji.sample.component.mqtt.model.MqttProtocolEnum
-    host: 192.168.0.110
+    host: 192.168.0.6
     port: 1883
-    username: JavaServer
-    password: 123456
-    client-id: 123456
+    username: admin
+    password: public
+    client-id: a830b306-3dba-4502-91d0-0efb4f8a40ec
     # If the protocol is ws/wss, this value is required.
     path:
   DRC:
     protocol: WS # @see com.dji.sample.component.mqtt.model.MqttProtocolEnum
-    host: 192.168.0.110
+    host: 192.168.0.6
     port: 8083
     path: /mqtt
     username: JavaServer
