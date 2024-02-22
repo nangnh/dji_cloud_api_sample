@@ -5,9 +5,9 @@ export const CURRENT_CONFIG = {
    * App License: aSXcx7vHev2ox2nK/YCD4SRq1aKOvGSbFcbtrI93lFCkBZJ/2BcbK9S6In8hzXDERU/g5+u3yiJfIFLigurMXCI4CRRAaikxV1AaXyOnBl0HODs0TOAqqjqFQF+TPSuE36aE+3xwHoZvQlpIuhh00Ra4iE9uVTyIWhL0jar4h10=
    */
   // license
-  appId: '142768', // You need to go to the development website to apply.
-  appKey: '95131b121a4d65ac2f27b52b0e32b73', // You need to go to the development website to apply.
-  appLicense: 'aSXcx7vHev2ox2nK/YCD4SRq1aKOvGSbFcbtrI93lFCkBZJ/2BcbK9S6In8hzXDERU/g5+u3yiJfIFLigurMXCI4CRRAaikxV1AaXyOnBl0HODs0TOAqqjqFQF+TPSuE36aE+3xwHoZvQlpIuhh00Ra4iE9uVTyIWhL0jar4h10=', // You need to go to the development website to apply.
+  appId: 'xxxxx', // You need to go to the development website to apply.
+  appKey: 'xxxxxx', // You need to go to the development website to apply.
+  appLicense: 'xxxxxxxx', // You need to go to the development website to apply.
 
   // http
   baseURL: 'http://192.168.0.6:6789/', // This url must end with "/". Example: 'http://192.168.1.1:6789/'
